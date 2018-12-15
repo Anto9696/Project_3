@@ -1,6 +1,6 @@
 from Airport import *
 from Flight import *
-from typing import List
+from typing import List,Dict
 from datetime import datetime
 from TdP_collections.queue.array_queue import ArrayQueue
 from utils import read_from_file
@@ -10,6 +10,17 @@ def backtrack(arrival_time,departure_time,min_waiting,cost,total):
         return True
     else:
         return False
+
+
+"""def simply_list_routes(flights :Dict[Flight],start :Airport,b :Airport,t,T :int,solution,actual_cost,paths):
+    if start == b:
+        paths.append(solution)
+    else:
+        for flight in flights[start]:
+            cost = actual_cost + (l(flight) - a(start) + a(flight) - l(flight))  # finora + attesa + volo
+            if backtrack(a(start), l(flight), c(d(start)), cost, T):
+                simply_list_routes(flights,d(start),b,T,solution + [flight],cost,paths)
+"""
 
 
 def list_routes(flights :List[Flight],start :Airport,b :Airport,t,T :int):
@@ -46,7 +57,7 @@ def list_routes(flights :List[Flight],start :Airport,b :Airport,t,T :int):
                 cost = time_elapsed + (l(flight) - a(my_flight) + a(flight) - l(flight)) # finora + attesa + volo
                 if backtrack(a(my_flight),l(flight),c(d(my_flight)),cost,T):
                     queue.enqueue((j,flight,cost))
-                    paths[j] = item.copy()
+                    paths[j] = item + []
                     # print(str(j), str(flight), cost)
                     # print("DURATA VOLO - ", a(flight) - l(flight))
                     # print("DURATA ATTESA - ", l(flight) - a(my_flight))
