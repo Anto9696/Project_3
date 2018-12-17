@@ -6,11 +6,9 @@ from TdP_collections.priority_queue.adaptable_heap_priority_queue import Adaptab
 from TdP_collections.list.positional_list import PositionalList
 from utils import read_from_file
 
-def backtrack(arrival_time,departure_time,min_waiting,cost,total):
-    if cost <= total and arrival_time + min_waiting <= departure_time:
-        return True
-    else:
-        return False
+def canBeTaken(flight, costo):
+    return True
+
 
 
 def find_route(flights :List[Flight], start :Airport,b :Airport,t):
@@ -29,13 +27,13 @@ def find_route(flights :List[Flight], start :Airport,b :Airport,t):
     min_tree_path = Dijkstra(airports_flights, start, b, t)
 
     flight_tmp = min_tree_path[b]
-    print(flight_tmp)
     route.add_first(flight_tmp)
-    flight_tmp = min_tree_path[s(flight_tmp)]
 
     while s(flight_tmp) != start:
-        route.add_first(flight_tmp)
         flight_tmp = min_tree_path[s(flight_tmp)]
+        route.add_first(flight_tmp)
+    if(flight_tmp not in route):
+        route.add_first(flight_tmp) #il volo che ha come aereoporto di partenza start
 
     for e in route:
         print(e)
@@ -72,13 +70,17 @@ def Dijkstra(airports_flights , start :Airport,b :Airport,t):
             airport = d(flight)   #prendo l'aereoporto di arrivo
             if airport not in cloud:
                 costo = c(airport)+ (a(flight) - l(flight))  # dove per costo si intende costo viaggio + costo attesa aereoporto D'arrivo
-                if D[u] + costo < D[airport]:
-                    D[airport] = D[u] + costo
-                    pq.update(pqlocator[airport], D[airport], airport)  #aggiorna D[v] nella pq
+                if(canBeTaken(flight, costo)):
+                    if D[u] + costo < D[airport]:
+                        D[airport] = D[u] + costo
+                        pq.update(pqlocator[airport], D[airport], airport)  #aggiorna D[v] nella pq
 
     if b not in cloud:
         return None
     # arrivato qui avrò un dizionario con chiavi i vertici messi nella soluzione e valori i costi per arrivarci da s
+
+    for e in cloud:
+        print(e)
 
     for airport in cloud:
         if airport is not start:
@@ -88,6 +90,7 @@ def Dijkstra(airports_flights , start :Airport,b :Airport,t):
                     costo = c(airport) + (a(flight) - l(flight))
                     if D[airport] == D[u] + costo:
                         min_tree_path[airport] = flight
+
 
 
     return min_tree_path
@@ -107,7 +110,7 @@ def Dijkstra(airports_flights , start :Airport,b :Airport,t):
 
 if __name__ == "__main__":
 
-    airports,flights=read_from_file("test1.txt")
+    airports,flights=read_from_file("test2.txt")
 
     """for airport in airports:
         print(airport)
@@ -117,7 +120,7 @@ if __name__ == "__main__":
 
     start = airports[0]
     end = airports[3]
-    starting_time = datetime.strptime("12:00", "%H:%M").time()
+    starting_time = datetime.strptime("11:00", "%H:%M").time()
     total_time = datetime.strptime("23:00", "%H:%M").time()
 
     start_time_minutes = starting_time.hour*60 + starting_time.minute
