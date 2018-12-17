@@ -62,6 +62,7 @@ def Dijkstra(airports_flights , start :Airport,b :Airport,t):
             D[airport] = float('inf')
         pqlocator[airport] = pq.add(D[airport], airport)  #salva il locator per i fututi aggiornamenti
 
+
     while not pq.is_empty() or not b in cloud:       # perchè se b è in cloud ho già trovato il percorso minimo che mi porta da a a b
         key, u = pq.remove_min()
         cloud[u] = key   #inserisce u nella soluzione
