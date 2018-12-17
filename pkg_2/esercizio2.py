@@ -89,8 +89,6 @@ def Dijkstra(airports_flights , start :Airport,b :Airport,t):
                     if D[airport] == D[u] + costo:
                         min_tree_path[airport] = flight
 
-    if min_tree_path is None:
-        print("ho sbagliato qualcosa")
 
     return min_tree_path
 
@@ -137,5 +135,6 @@ if __name__ == "__main__":
     if(path is not None):
         for flight in path:
          print(flight)
+
     else:
         print("Nessun percorso trovato")
