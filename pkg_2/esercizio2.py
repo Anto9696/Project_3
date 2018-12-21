@@ -21,20 +21,17 @@ def find_route(flights :List[Flight], start :Airport, b :Airport, t):
 
     cloud, flight_taken = Dijkstra(flights, airports_flights, start, b, t)
 
-    total_time = 0       #calcolo tempo totale per andare da "a" a "b"
-    for e in cloud:
-        total_time += cloud[e]
-
     flight_tmp = flight_taken[b]   #partiamo all'indietro, da b fino ad arrivare in a
+    total_time = a(flight_tmp) - t
     route.add_first(flight_tmp)
 
-    while s(flight_tmp) != start or d(flight_tmp) == b:    #la seconda condizione perchè altrimenti il volo diretto da a e b non viene considerato nel while, quindi fa questo fino a quando                                               #l'aereoporto di partenza non è start o l'aereoporto di destinazione è b
+    while s(flight_tmp) != start and d(flight_tmp) == b:    #la seconda condizione perchè altrimenti il volo diretto da a e b non viene considerato nel while, quindi fa questo fino a quando                                               #l'aereoporto di partenza non è start o l'aereoporto di destinazione è b
         flight_tmp = flight_taken[s(flight_tmp)]
         route.add_first(flight_tmp)
 
     # for e in route:
     #     print(e)
-    return route
+    return route, total_time
 
 
 
@@ -59,7 +56,7 @@ def Dijkstra(flights, airports_flights, start :Airport, b :Airport, t):
         pqlocator[airport] = pq.add(D[airport], airport)  #salva il locator per i fututi aggiornamenti
 
 
-    while not pq.is_empty() or not b in cloud:       # perchè se b è in cloud ho già trovato il percorso minimo che mi porta da a a b, posso già fermarmi
+    while not pq.is_empty() and not b in cloud:       # perchè se b è in cloud ho già trovato il percorso minimo che mi porta da a a b, posso già fermarmi
         key, u = pq.remove_min()                #la key sarebbe l'etichetta, u l'aereoporto con quella etichetta
         cloud[u] = key                           #inserisce u nella soluzione
         t += key                              #al tempo di partenza aggiungo il tempo per aver preso quel volo
@@ -141,16 +138,15 @@ if __name__ == "__main__":
     start = airports[0]
     end = airports[3]
     starting_time = datetime.strptime("11:00", "%H:%M").time()
-    total_time = datetime.strptime("23:00", "%H:%M").time()
 
     start_time_minutes = starting_time.hour*60 + starting_time.minute
-    total_time_minutes = total_time.hour*60 + total_time.minute
-
-    path = find_route(flights,start,end,start_time_minutes)
 
 
+    path, total_time = find_route(flights,start,end,start_time_minutes)
 
-    print("\n\nPercorso da "+str(start)+" a "+str(end)+" in "+str(total_time_minutes)+" minuti ")
+
+
+    print("\n\nPercorso da "+str(start)+" a "+str(end)+" in "+str(total_time)+" minuti ")
     print("Partenza alle "+str(starting_time))
 
     print("--------------PATH----------- ")
