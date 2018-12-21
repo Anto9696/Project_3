@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e44c2556-c5fd-49f8-9a7e-5e50d729faeb" name="Default Changelist" comment="">
+    <list default="true" id="e44c2556-c5fd-49f8-9a7e-5e50d729faeb" name="Default Changelist" comment="es2">
+      <change afterPath="$PROJECT_DIR$/pkg_2/test2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/pkg_2/esercizio2.py" beforeDir="false" afterPath="$PROJECT_DIR$/pkg_2/esercizio2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg_2/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pkg_2/test1.txt" afterDir="false" />
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +20,7 @@
     <session id="1799823340">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -21,58 +28,81 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.opened" value="5" />
+=======
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="3" />
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
           <entry key="py" value="18" />
           <entry key="test1" value="4" />
+=======
+          <entry key="py" value="7" />
+          <entry key="test1" value="2" />
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="18" />
+=======
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="7" />
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="8377" />
-          <entry key="test1" value="95" />
+          <entry key="py" value="4382" />
+          <entry key="test1" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="95" />
-          <entry key="Python" value="8377" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="Python" value="4382" />
         </counts>
       </usages-collector>
     </session>
     <session id="-1988663277">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
+          <entry key="py" value="12" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="6" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="162" />
+          <entry key="py" value="3976" />
+          <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="162" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="3976" />
         </counts>
       </usages-collector>
     </session>
@@ -80,10 +110,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pkg_1/esercizio1.py">
+        <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-67">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="137">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -92,28 +122,75 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Airport.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pkg_1/esercizio1.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="-67">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+=======
+            <state relative-caret-position="1616">
+              <caret line="99" column="62" lean-forward="true" selection-start-line="99" selection-start-column="62" selection-end-line="99" selection-end-column="62" />
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pkg_3/esercizio3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="239">
               <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pkg_2/esercizio2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="53" column="31" lean-forward="true" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
               <folding>
-                <element signature="e#0#20#0" expanded="true" />
-                <marker date="1544988088609" expanded="true" signature="147:366" ph="..." />
-                <marker date="1544988088609" expanded="true" signature="439:440" ph="..." />
+                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1545053369050" expanded="true" signature="325:345" ph="..." />
+                <marker date="1545053369050" expanded="true" signature="1433:1439" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/pkg_4/esercizio4.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-243">
               <caret line="36" column="91" selection-start-line="36" selection-start-column="91" selection-end-line="36" selection-end-column="91" />
+=======
+        <entry file="file://Z:/Salv Desk GerryHP/GERRY/Magistrale/anno1/Tecniche di programmazione/PyCharm/TdP_collections/list/doubly_linked_base.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pkg_2/test1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pkg_2/esercizio2.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -122,6 +199,39 @@
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pkg_2/test2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/pkg_1/test1">
+=======
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/datetime.py">
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31603">
+              <caret line="1860" column="8" selection-start-line="1860" selection-start-column="8" selection-end-line="1860" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Flight.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="527">
+              <caret line="79" column="6" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
+=======
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -129,17 +239,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pkg_1/test1">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../TdP_collections/graphs/graph.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="79" column="6" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
+            <state relative-caret-position="102">
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
             </state>
           </provider>
         </entry>
@@ -166,11 +268,11 @@
         <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/Flight.py" />
         <option value="$PROJECT_DIR$/Airport.py" />
-        <option value="$PROJECT_DIR$/pkg_2/esercizio2.py" />
-        <option value="$PROJECT_DIR$/pkg_4/esercizio4.py" />
         <option value="$PROJECT_DIR$/pkg_1/test1" />
         <option value="$PROJECT_DIR$/pkg_1/esercizio1.py" />
-        <option value="$PROJECT_DIR$/pkg_3/esercizio3.py" />
+        <option value="$PROJECT_DIR$/pkg_2/test2.txt" />
+        <option value="$PROJECT_DIR$/pkg_2/test1.txt" />
+        <option value="$PROJECT_DIR$/pkg_2/esercizio2.py" />
       </list>
     </option>
   </component>
@@ -203,55 +305,6 @@
               <item name="Project_3" type="462c0819:PsiDirectoryNode" />
               <item name="pkg_2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Project_3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project_3" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg_3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project_3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project_3" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg_4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project_3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Project_3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Project_3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="TdP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project_3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="TdP" type="462c0819:PsiDirectoryNode" />
-              <item name="Esercizi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project_3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="TdP" type="462c0819:PsiDirectoryNode" />
-              <item name="Esercizi" type="462c0819:PsiDirectoryNode" />
-              <item name="Project_3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project_3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="TdP" type="462c0819:PsiDirectoryNode" />
-              <item name="Esercizi" type="462c0819:PsiDirectoryNode" />
-              <item name="Project_3" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg_4" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -262,11 +315,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Antonio\Desktop\TdP\Esercizi\Project_3\pkg_4" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Antonio\Desktop\TdP\Esercizi\Project_3\pkg_3" />
       <recent name="C:\Users\Antonio\Desktop\TdP\Esercizi\Project_3\pkg_1" />
       <recent name="C:\Users\Antonio\Desktop\TdP\Esercizi\Project_3" />
     </key>
@@ -283,7 +332,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.esercizio3">
+  <component name="RunManager" selected="Python.esercizio2">
     <configuration name="Aeroporto" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Project_3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -347,7 +396,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="esercizio3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="esercizio2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Project_3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -355,32 +404,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pkg_3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pkg_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pkg_3/esercizio3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="esercizio4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Project_3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pkg_4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pkg_4/esercizio4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pkg_2/esercizio2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -393,14 +421,12 @@
       <item itemvalue="Python.Aeroporto" />
       <item itemvalue="Python.CompagniaAerea" />
       <item itemvalue="Python.esercizio1" />
-      <item itemvalue="Python.esercizio4" />
-      <item itemvalue="Python.esercizio3" />
+      <item itemvalue="Python.esercizio2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.esercizio3" />
+        <item itemvalue="Python.esercizio2" />
         <item itemvalue="Python.esercizio1" />
-        <item itemvalue="Python.esercizio4" />
         <item itemvalue="Python.CompagniaAerea" />
         <item itemvalue="Python.Aeroporto" />
       </list>
@@ -417,69 +443,145 @@
       <option name="presentableId" value="Default" />
       <updated>1544551743329</updated>
     </task>
+    <task id="LOCAL-00001" summary="es2">
+      <created>1545003853745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545003853745</updated>
+    </task>
+    <task id="LOCAL-00002" summary="es2">
+      <created>1545048381598</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545048381600</updated>
+    </task>
+    <task id="LOCAL-00003" summary="es2">
+      <created>1545049177619</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545049177619</updated>
+    </task>
+    <task id="LOCAL-00004" summary="es2">
+      <created>1545049189752</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545049189752</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19568452" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19546892" />
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.50163937" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44902387" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2885246" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2885246" />
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19546892" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44902387" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2885246" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="es2" />
+    <option name="LAST_COMMIT_MESSAGE" value="es2" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Progetto_3/Aeroporto.py" />
     <entry file="file://$PROJECT_DIR$/../Progetto_3/test1" />
-    <entry file="file://Z:/Salv Desk GerryHP/GERRY/Magistrale/anno1/Tecniche di programmazione/PyCharm/TdP_collections/graphs/graph.py" />
-    <entry file="file://$PROJECT_DIR$/utils.py">
+    <entry file="file://Z:/Salv Desk GerryHP/GERRY/Magistrale/anno1/Tecniche di programmazione/PyCharm/TdP_collections/graphs/graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="323">
+          <caret line="61" column="45" lean-forward="true" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/datetime.py" />
-    <entry file="file://$PROJECT_DIR$/Flight.py">
+    <entry file="file://Z:/Salv Desk GerryHP/GERRY/Magistrale/anno1/Tecniche di programmazione/PyCharm/TdP_collections/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://Z:/Salv Desk GerryHP/GERRY/Magistrale/anno1/Tecniche di programmazione/PyCharm/TdP_collections/queue/array_queue.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/pip/_vendor/urllib3/packages/ordered_dict.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="459">
           <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+=======
+        <state relative-caret-position="299">
+          <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
         </state>
       </provider>
     </entry>
-    <entry file="file://Z:/Salv Desk GerryHP/GERRY/Magistrale/anno1/Tecniche di programmazione/PyCharm/TdP_collections/__init__.py" />
-    <entry file="file://Z:/Salv Desk GerryHP/GERRY/Magistrale/anno1/Tecniche di programmazione/PyCharm/TdP_collections/queue/array_queue.py" />
-    <entry file="file://Z:/Salv Desk GerryHP/GERRY/Magistrale/anno1/Tecniche di programmazione/PyCharm/TdP_collections/priority_queue/adaptable_heap_priority_queue.py" />
-    <entry file="file://$PROJECT_DIR$/Airport.py">
+    <entry file="file://Z:/Salv Desk GerryHP/GERRY/Magistrale/anno1/Tecniche di programmazione/PyCharm/TdP_collections/priority_queue/adaptable_heap_priority_queue.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="204">
           <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+=======
+        <state relative-caret-position="391">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CompagniaAerea.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+        <state relative-caret-position="51">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/pkg_3/test1">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -487,13 +589,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+=======
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/1285302737/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62492">
+          <caret line="3676" column="8" selection-start-line="3676" selection-start-column="8" selection-end-line="3676" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31603">
+          <caret line="1860" column="8" selection-start-line="1860" selection-start-column="8" selection-end-line="1860" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pkg_1/test1">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        <state relative-caret-position="102">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Z:/Salv Desk GerryHP/GERRY/Magistrale/anno1/Tecniche di programmazione/PyCharm/TdP_collections/list/doubly_linked_base.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://Z:/Salv Desk GerryHP/GERRY/Magistrale/anno1/Tecniche di programmazione/PyCharm/TdP_collections/list/positional_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flight.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -511,34 +660,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pkg_1/esercizio1.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-67">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+=======
+        <state relative-caret-position="1616">
+          <caret line="99" column="62" lean-forward="true" selection-start-line="99" selection-start-column="62" selection-end-line="99" selection-end-column="62" />
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/pkg_4/esercizio4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-243">
           <caret line="36" column="91" selection-start-line="36" selection-start-column="91" selection-end-line="36" selection-end-column="91" />
+=======
+    <entry file="file://$PROJECT_DIR$/pkg_2/test2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../TdP_collections/graphs/graph.py">
+    <entry file="file://$PROJECT_DIR$/pkg_2/test1.txt">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="527">
           <caret line="79" column="6" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
+=======
+        <state relative-caret-position="204">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pkg_2/esercizio2.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="199">
           <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+=======
+        <state relative-caret-position="323">
+          <caret line="53" column="31" lean-forward="true" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1545053369050" expanded="true" signature="325:345" ph="..." />
+            <marker date="1545053369050" expanded="true" signature="1433:1439" ph="..." />
+>>>>>>> 97c20373e6a06024ff1cf17b6a47c2edd38a2afb
           </folding>
         </state>
       </provider>
