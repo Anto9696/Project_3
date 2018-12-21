@@ -22,8 +22,10 @@ def find_route(airports :List[Airport],flights :Dict, start :Airport,b :Airport,
         cloud[airport] = flight_last
         for flight in flights[airport]:
             if d(flight) not in cloud and arrival_time + c(airport) <= l(flight):
-                cost[d(flight)][0] = min(cost[d(flight)][0],cost[airport][0] + l(flight) - arrival_time + a(flight) - l(flight))
-                queue.update(cost[d(flight)][1],cost[d(flight)][0],(d(flight),flight,a(flight)))
+                new_cost = cost[airport][0] + l(flight) - arrival_time + a(flight) - l(flight)
+                if new_cost < cost[d(flight)][0]:
+                    cost[d(flight)][0] = new_cost
+                    queue.update(cost[d(flight)][1],cost[d(flight)][0],(d(flight),flight,a(flight)))
 
     my_flight = cloud[b]
     while my_flight is not None:
