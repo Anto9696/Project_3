@@ -4,6 +4,7 @@ from pkg_4.esercizio4 import complete_bipartite
 graph1 = Graph()
 graph2 = Graph()
 graph3 = Graph()
+graph4 = Graph()
 vertex = []
 
 print("TEST GRAFO BIPARTIBILE")
@@ -88,17 +89,17 @@ print("_____________________________________________________")
 print("TEST GRAFO BIPARTIBILE")
 vertex = []
 for i in range(8):
-    vertex.append(graph3.insert_vertex(i))
+    vertex.append(graph4.insert_vertex(i))
 
-graph3.insert_edge(vertex[0], vertex[1])
-graph3.insert_edge(vertex[0], vertex[2])
-graph3.insert_edge(vertex[0], vertex[3])
-graph3.insert_edge(vertex[3], vertex[5])
-graph3.insert_edge(vertex[5], vertex[4])
-graph3.insert_edge(vertex[5], vertex[6])
-graph3.insert_edge(vertex[4], vertex[7])
+graph4.insert_edge(vertex[0], vertex[1])
+graph4.insert_edge(vertex[0], vertex[2])
+graph4.insert_edge(vertex[0], vertex[3])
+graph4.insert_edge(vertex[3], vertex[5])
+graph4.insert_edge(vertex[5], vertex[4])
+graph4.insert_edge(vertex[5], vertex[6])
+graph4.insert_edge(vertex[4], vertex[7])
 
-bipartibile, x, y = complete_bipartite(graph3)
+bipartibile, x, y = complete_bipartite(graph4)
 
 if bipartibile:
     print("E' bipartibile ")
