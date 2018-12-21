@@ -36,7 +36,7 @@ def find_route(airports :List[Airport],flights :Dict, start :Airport,b :Airport,
 
 
 if __name__=="__main__":
-    airports, flights = read_from_file("test1.txt")
+    airports, flights = read_from_file("test6.txt")
 
     flights_dict = dict()
     for flight in flights:
