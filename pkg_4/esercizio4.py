@@ -39,6 +39,7 @@ def bipartite(graph: Graph, start: Graph.Vertex, x: List, y: List, discover: Dic
         level = next_level
     return True
 
+
 # if __name__ == "__main__":
 #     graph = Graph()
 #     vertex = []
@@ -46,13 +47,13 @@ def bipartite(graph: Graph, start: Graph.Vertex, x: List, y: List, discover: Dic
 #     for i in range(4):
 #         vertex.append(graph.insert_vertex(i))
 #
-#     graph.insert_edge(vertex[0],vertex[1])
-#     graph.insert_edge(vertex[0],vertex[2])
-#     graph.insert_edge(vertex[1],vertex[3])
-#     graph.insert_edge(vertex[2],vertex[3])
-#     #graph.insert_edge(vertex[1], vertex[2])
+#     graph.insert_edge(vertex[0], vertex[1])
+#     graph.insert_edge(vertex[0], vertex[2])
+#     graph.insert_edge(vertex[1], vertex[3])
+#     graph.insert_edge(vertex[2], vertex[3])
+#     # graph.insert_edge(vertex[1], vertex[2])
 #
-#     bipartibile,x,y = complete_bipartite(graph)
+#     bipartibile, x, y = complete_bipartite(graph)
 #
 #     if bipartibile:
 #         print("E' bipartibile ")

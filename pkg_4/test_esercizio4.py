@@ -28,7 +28,7 @@ if bipartibile:
 else:
     print("Non e' bipartibile ")
 
-print("______________________________________________________")
+print("_____________________________________________________")
 print("TEST GRAFO NON BIPARTIBILE")
 vertex = []
 for i in range(4):
@@ -53,7 +53,7 @@ if bipartibile:
 else:
     print("Non e' bipartibile ")
 
-print("______________________________________________________")
+print("_____________________________________________________")
 print("TEST GRAFO NON BIPARTIBILE")
 vertex = []
 for i in range(8):
@@ -84,7 +84,7 @@ if bipartibile:
 else:
     print("Non e' bipartibile ")
 
-print("______________________________________________________")
+print("_____________________________________________________")
 print("TEST GRAFO BIPARTIBILE")
 vertex = []
 for i in range(8):
