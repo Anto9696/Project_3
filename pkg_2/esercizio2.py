@@ -84,7 +84,7 @@ def Dijkstra(flights, airports_flights, start :Airport, b :Airport, t):
                     if D[u] + costo < D[airport]:
                         D[airport] = D[u] + costo
                         pq.update(pqlocator[airport], D[airport], airport)  #aggiorna D[v] nella pq
-                        flightTaken[u] = flight      #mappo anche il volo corrispondente a quel costo aggiornato
+                        flightTaken[airport] = flight      #mappo anche il volo corrispondente a quel costo aggiornato
 
 
 

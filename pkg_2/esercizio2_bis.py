@@ -8,7 +8,7 @@ from datetime import datetime
 def find_route(airports :List[Airport],flights :Dict, start :Airport,b :Airport,t):
     cost = {}
     cloud = {}
-    git  = []
+    path  = []
     queue = AdaptableHeapPriorityQueue()
 
     for airport in airports:
@@ -17,7 +17,7 @@ def find_route(airports :List[Airport],flights :Dict, start :Airport,b :Airport,
     cost[start][0] = 0
     queue.update(cost[start][1], 0, (start,None,t))
 
-    while not queue.is_empty():
+    while not queue.is_empty() and b not in cloud:
         _,(airport,flight_last,arrival_time) = queue.remove_min()
         cloud[airport] = flight_last
         for flight in flights[airport]:
@@ -34,7 +34,7 @@ def find_route(airports :List[Airport],flights :Dict, start :Airport,b :Airport,
 
 
 if __name__=="__main__":
-    airports, flights = read_from_file("test2.txt")
+    airports, flights = read_from_file("test1.txt")
 
     flights_dict = dict()
     for flight in flights:
@@ -45,7 +45,7 @@ if __name__=="__main__":
 
     start = airports[0]
     end = airports[3]
-    starting_time = datetime.strptime("12:00", "%H:%M").time()
+    starting_time = datetime.strptime("11:00", "%H:%M").time()
     starting_time_minutes = starting_time.hour*60+starting_time.minute
 
     path,time = find_route(airports,flights_dict,start,end,starting_time_minutes)
