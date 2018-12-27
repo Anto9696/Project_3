@@ -3,6 +3,11 @@ from typing import Dict, List
 
 
 def complete_bipartite(graph: Graph):
+    """
+
+    :param graph: grafo non diretto
+    :returns: True/False se il grafo è bipartito o meno, x e y come partizioni contenenti i nodi (se bipartito)
+    """
     discover = {}
     x = []
     y = []
@@ -18,6 +23,15 @@ def complete_bipartite(graph: Graph):
 
 
 def bipartite(graph: Graph, start: Graph.Vertex, x: List, y: List, discover: Dict):
+    """
+
+    :param graph: grafo non diretto
+    :param start: nodo di partenza
+    :param x: partizione sinistra dei nodi
+    :param y: partizione destra dei nodi
+    :param discover: nodi visitati
+    :return: true se è bipartito, false se non lo è
+    """
     level = [start]
     i = 0
     while len(level) > 0:

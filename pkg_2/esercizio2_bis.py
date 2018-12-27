@@ -1,11 +1,17 @@
-from Airport import *
-from Flight import *
 from TdP_collections.priority_queue.adaptable_heap_priority_queue import AdaptableHeapPriorityQueue
 from utils import *
 from typing import Dict, List
 
 
 def find_route(airports: List[Airport], flights: Dict, start: Airport, b: Airport, t):
+    """
+    :param airports: Lista di tutti gli aeroporti
+    :param flights: dict di tutti i voli
+    :param start: aeroporto di partenza
+    :param b: aeroporto di destinazione
+    :param t: orario di partenza
+    :returns: la rotta che permette di arrivare da start a b nel minor tempo possibile, partendo ad un orario non precedente a t
+    """
     cost = {}
     cloud = {}
     path = []

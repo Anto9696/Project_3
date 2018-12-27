@@ -1,6 +1,5 @@
 from Flight import *
 from Airport import *
-# from utils import read_from_file
 from typing import List
 
 
@@ -19,6 +18,13 @@ def find_solution(flights: List[Flight], C, B):
 
 
 def select_flights(flights: List[Flight], airports: List[Airport], B: int):
+    """
+
+    :param flights: Lista di tutti i voli della compagnia
+    :param airports: Lista di tutti gli aeroporti
+    :param B: budget a disposizione della compagnia
+    :return: per ogni aeroporto a quanti soldi devono essere assegnati al resposabile dello scalo
+    """
     N = [[None for i in range(B + 1)] for j in range(len(flights) + 1)]
     C = [[False for i in range(B + 1)] for j in range(len(flights) + 1)]
 
