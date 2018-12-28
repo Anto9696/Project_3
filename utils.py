@@ -23,3 +23,9 @@ def read_from_file(filename):
         f.close()
 
     return airports, flights
+
+def interval_time(departure_time, arrival_time):
+    if arrival_time < departure_time:
+        return 24*60 - departure_time + arrival_time
+    else:
+        return arrival_time - departure_time
