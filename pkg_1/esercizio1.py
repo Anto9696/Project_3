@@ -31,9 +31,9 @@ def backtrack(arrival_time,departure_time,min_waiting,cost,total):
 """
 
 
-def backtrack(cost,total):
+def backtrack(min_waiting,waiting_time,cost,total):
     # Backtracking function to prune the solution tree
-    return cost <= total
+    return waiting_time >= min_waiting and cost <= total
 
 
 def list_routes_rec(flights :Dict,start :Airport,b :Airport,arrival_time,T :int,solution :List,paths):
@@ -48,11 +48,11 @@ def list_routes_rec(flights :Dict,start :Airport,b :Airport,arrival_time,T :int,
             if arrival_time + c(start) <= l(flight):
                 waiting_time = l(flight) - arrival_time
             else:
-                waiting_time = 24*60 - arrival_time + l(flight) # Posso prenderlo il giorno dopo
+                waiting_time = 24*60 - arrival_time + l(flight) # Provo a prenderlo il giorno dopo
 
             actual_cost = waiting_time + interval_time(l(flight), a(flight))
 
-            if backtrack(solution[0] + actual_cost ,T):
+            if backtrack(c(start),waiting_time,solution[0] + actual_cost ,T):
                 # This is a possible partial solution
                 solution[0] += actual_cost
                 solution[1].append(flight)

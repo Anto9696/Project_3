@@ -71,7 +71,7 @@ def find_route(airports: List[Airport], flights: Dict, start: Airport, b: Airpor
             else:
                 waiting_time = 24*60 - arrival_time + l(flight) # Posso prenderlo il giorno dopo
 
-            if d(flight) not in cloud:
+            if d(flight) not in cloud and waiting_time >= c(airport):
                 new_cost = cost[airport][0] + waiting_time + interval_time(l(flight),a(flight))
                 if new_cost < cost[d(flight)][0]:
                     cost[d(flight)][0] = new_cost
