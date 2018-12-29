@@ -3,37 +3,10 @@ from Flight import *
 from utils import interval_time
 from typing import List,Dict
 
-"""
-def backtrack(arrival_time,departure_time,min_waiting,cost,total):
-    # Backtracking function to prune the solution tree
-    if cost <= total and arrival_time + min_waiting <= departure_time:
-        return True
-    else:
-        return False
-        
-    def list_routes_rec(flights :Dict,start :Airport,b :Airport,arrival_time,T :int,solution :List,paths):
-    if start == b:
-        # Save the solution
-        paths.append(solution[1].copy())
-    else:
-        for flight in flights[start]:
-            # Try all possible solution
-            
-            actual_cost =( l(flight) - arrival_time + a(flight) - l(flight))
-            cost = solution[0] + actual_cost  # finora + attesa + volo
-            if backtrack(arrival_time, l(flight), c(start), cost, T):
-                # This is a possible partial solution
-                solution[0] += actual_cost
-                solution[1].append(flight)
-                list_routes_rec(flights,d(flight),b,a(flight),T,solution,paths)
-                solution[1].pop()
-                solution[0] -= actual_cost
-"""
 
-
-def backtrack(min_waiting,waiting_time,cost,total):
+def backtrack(cost,total):
     # Backtracking function to prune the solution tree
-    return waiting_time >= min_waiting and cost <= total
+    return cost <= total
 
 
 def list_routes_rec(flights :Dict,start :Airport,b :Airport,arrival_time,T :int,solution :List,paths):
@@ -50,9 +23,13 @@ def list_routes_rec(flights :Dict,start :Airport,b :Airport,arrival_time,T :int,
             else:
                 waiting_time = 24*60 - arrival_time + l(flight) # Provo a prenderlo il giorno dopo
 
+            if waiting_time < c(start):
+                # Si suppone che il tempo minimo di attesa sia inferiore a 24h
+                waiting_time += 24*60
+
             actual_cost = waiting_time + interval_time(l(flight), a(flight))
 
-            if backtrack(c(start),waiting_time,solution[0] + actual_cost ,T):
+            if backtrack(solution[0] + actual_cost, T):
                 # This is a possible partial solution
                 solution[0] += actual_cost
                 solution[1].append(flight)
