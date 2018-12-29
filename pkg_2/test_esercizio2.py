@@ -4,9 +4,13 @@ from datetime import datetime
 
 while True:
     print("Su quale file vuoi fare il test?: ")
-    select = input("Digita la tua scelta: (un numero da 1 a 6)")
+    # select = input("Digita la tua scelta: (un numero da 1 a 6)")
+    #
+    # airports, flights = read_from_file("test" + select + ".txt")
+    test_file = input("Digita la tua scelta: (un numero da 1 a 6)")
+    airports,flights=read_from_file("../tests/test" + test_file)
 
-    airports, flights = read_from_file("test" + select + ".txt")
+    print("\nTEST "+test_file+"\n")
 
     flights_dict = dict()
     for flight in flights:
