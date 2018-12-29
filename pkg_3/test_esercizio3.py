@@ -9,7 +9,7 @@ while True:
 
     print("\nTEST "+test_file+"\n")
 
-    selected, money = select_flights(flights, airports, 6000)
+    selected, money = select_flights(flights, airports, 290)
 
     print(" VOLI ")
     for flight in selected:
