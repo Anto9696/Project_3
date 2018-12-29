@@ -1,4 +1,4 @@
-from pkg_2.esercizio2_bis import find_route
+from pkg_2.esercizio2 import find_route
 from utils import *
 from datetime import datetime
 
