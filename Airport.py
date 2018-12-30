@@ -7,7 +7,7 @@ class Airport:
         self._min=min
 
     def __str__(self):
-        return self._name + " " + str(self._min)
+        return self._name
 
     def __hash__(self):
         return hash(self._name)
